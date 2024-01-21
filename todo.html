@@ -9,14 +9,18 @@
 </head>
 <body>
     <div class="container">
-    <h2 class="todo">My TODO</h2>
+    <h1 id="todo">My TODO</h1>
 
-    <div class="todo-items">
-        <input type="textarea" class="text-area">
-        <input type="date" class="date-selector">
-        <button class="btn">Add</button>
+    <div class="todo-items grid-container">
+        <input type="textarea" id="text-area" placeholder="Enter your Todo" required>
+        <input type="date" id="date-selector" required>
+        <button class="btn" onclick="add()">Add</button>
+        
     </div>
-
+    <div class="todo-container grid-container"></div>
+    
     </div>
+    <script src="todo.js"></script>
 </body>
+
 </html>

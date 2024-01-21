@@ -2,36 +2,53 @@
     margin: 0px;
     
 }
-
-.todo{
-   margin-left: 50%;
+.container{
     margin-top: 20px;
-    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 2px solid black;
+    
 }
 
-
-.todo-items{
-    
-    width: 500px;
-    height: 500px;
-    display: flex;
-    
-    border: 2px solid black;
-    margin-left: 40%;
+#todo{
+   text-align: center;
 }
 
-.text-area{
-    height: 80px;
-    width: 100px;
-    border: 2px solid black;
-
+#text-area , #date-selector{
+    font-size: 15px;
+    padding: 10px 5px;
 }
 
 .date-selector{
-    height: 80px;
+    margin: 20px;
+    height: 40px;
     width: 100px;
 }
+
 .btn{
-    height: 80px;
-    width: 100px;
+    
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 0px;
+    background-color: green;
+   
+    cursor: pointer;
+}
+
+.dltBtn{
+    font-size: medium;
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 0px;
+    background-color: rgb(190, 15, 15);
+    cursor: pointer;
+}
+.grid-container{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
 }
